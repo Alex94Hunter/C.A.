@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Covash Alexander</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+	<table cellspacing="25">
+		<tr>
+			<td>
+				<img alt="tut moya fotka!" width="150" src="https://i.natgeofe.com/k/aa530fda-c5b6-4868-b424-9b6f08c6fbfb/Ceratosaur_battle.jpg?w=636&h=795">
+			</td>
+			<td>
+				<h1>Коваш Александр</h1>
+				<p><em>Я начинающий <strong>программист</strong></em></p>
+				<p>Я люблю охоту боевые искуcтва и читать</p>
+			</td>
+		</tr>
+	</table>
+	
+	<hr size="5" color="red">
+	
+	<h2>Мои соц-сети</h2>
+	<ul type="square">
+		<li><a href="https://www.instagram.com/covassasha/" target="_blank">instagram</a></li>
+		<li><a href="https://www.facebook.com/sasha.covas" target="_blank">facebook</a> </li>
+	</ul>
+	
+	<hr size="5" color="red">
+	
+	<h2>Мои хобби</h2>
+		<ol>
+			<li>Охота </li>
+			<li>Рыбалка</li>
+			<li>Ушу</li>
+		</ol>
+	
+	<hr size="5" color="red">
+		
+	<h2>опыт работы</h2>
+	<table border="2">
+		<tr>
+			<th>место работы</th>
+			<th>должность</th>
+			<th>год</th>
+		</tr>
+		<tr>
+			<td>H.Portofino</td>
+			<td>официант</td>
+			<td>2019</td>
+		</tr>
+		<tr>
+			<td>лес</td>
+			<td>разнорабочий</td>
+			<td>2018</td>
+		</tr>
+	</table>
+	
+	<h2>HTML kursy</h2>
+	<a href="new.html">посмотреть список<a/>
+	
+	<hr size="5" color="red">
+	
+	<h2>Связаться со мной</h2>
+	<form>
+		<label for="name">Ваше имя:<label>
+		<input type="text" id="name"
+		placeholder="Введите ваше имя...">
+		<br>
+		<label for="email">ваш e-mail:<label>
+		<input type="email" id="email"
+		placeholder="Введите ваш e-mail...">
+		
+		<br>
+		
+		<label for="text">ваше сообщение<label>
+		<br>
+		<textarea id="text" rows="2" cols="2"></textarea>
+		
+		<br>
+		
+		<input type="submit" value="sviazatsya">
+		
+	</form>
+	
+</body>
+</html>
